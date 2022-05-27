@@ -26,15 +26,37 @@ a{
   width: 35%;
 }
 
-.lc{
+.leoClub{
     font-size:400%;
     letter-spacing:50%;
     line-height:0px;
+    
 }
 
-.ra{
+.royalAchievers{
+    padding-top: -20%;
     font-size:700%;
     line-height: 50%;
+    line-height: 1;
+}
+
+.homeDescription{
+  padding-left: 15%; 
+  padding-right: 15%; 
+  font-size: 120%;
+}
+
+.LCOficialFont{
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.RAOficialFont{
+  padding-top: 2%;
+  font-family: minion-pro, serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .btn{
