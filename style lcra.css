@@ -34,7 +34,7 @@ a{
 }
 
 .royalAchievers{
-    padding-top: -5%;
+    padding-top: 2%;
     font-size:700%;
     line-height: 50%;
     line-height: 1;
@@ -53,14 +53,14 @@ a{
 }
 
 .RAOficialFont{
-  padding-top: 2%;
+  
   font-family: minion-pro, serif;
   font-style: normal;
   font-weight: 400;
 }
 
 .btn{
-    width:190px;
+    width: 25%;
     height:44px;
     margin:20px;
     margin-bottom: -150px;
