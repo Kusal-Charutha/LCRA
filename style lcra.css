@@ -7,11 +7,62 @@ body{
     color:white;
   }
 
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+--------------------------------------------------------------- */
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {}
+/* ---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+tutorial link : https://www.youtube.com/watch?v=P_vkS4UJNDk 
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+--------------------------------------------------------------- */
+
+
+
+
+
+
+
+p{
+  font-size: 120%;
+}
+
+
+
 a{
     text-decoration: none;
   }
 
-  .center{
+
+.center{
     text-align: center;
 }
 
@@ -49,7 +100,7 @@ a{
 .LCOficialFont{
   font-family: poppins, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .RAOficialFont{
@@ -59,10 +110,12 @@ a{
   font-weight: 400;
 }
 
+
+
 .btn{
     width: 15%;
-    height:44px;
-    margin:20px;
+    height: 50px;
+    margin: 2%;
     font-size: 120%;
     margin-bottom: -150px;
     justify-content: center;
@@ -456,7 +509,7 @@ padding: 2%;
 }
 
 .projectFactsWrap .item:nth-child(1){
-  background: rgb(10, 19, 28);
+  background: rgb(14, 28, 49);
 }
 
 .projectFactsWrap .item:nth-child(2){
