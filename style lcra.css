@@ -254,18 +254,12 @@ nav{
   padding-right: 10%;
   padding-left: 10%;
 }
-.footer div img{
-  margin-top: -5%;
-  margin-bottom: -5%;
-  margin-left: 5%;
-  height:110px;
-  width:190px;
-}
+
 .footer_btn{
-  width:50%;
-  height:15%;
-  margin:2%;
-  margin-left: 0%;
+  width:25%;
+  padding:3%;
+  margin-top: 2%;
+  margin-left: 5%;
   justify-content: center;
   align-items: center;
   color: rgb(250, 176, 17);
@@ -284,9 +278,10 @@ nav{
   box-shadow:5px 10px 30px rgba(24, 139, 120, 0);  
 }
 .form_email_box{
+
 background-color: rgba(0, 0, 0, 0);
 color: rgb(255, 255, 255);
-border-width:0.5px;
+border-width: 10%;
 border-color: rgb(255, 255, 255);
 font-size: 100%; 
 padding: 2%;
