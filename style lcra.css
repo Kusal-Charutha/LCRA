@@ -67,6 +67,12 @@ a{
 }
 
 
+.pro_headings{
+  margin-top: 5%;
+  font-size: 200%;
+  font-weight: bold;
+}
+
 
 .logo{
     height:70px;
@@ -671,7 +677,7 @@ padding: 2%;
   -webkit-transform: scale(2.2);
   color: #000000;
   background: -webkit-linear-gradient(45deg, rgb(173, 120, 6), rgb(235, 184, 76));
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
 }
