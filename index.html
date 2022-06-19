@@ -3,7 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="style lcra.css" rel="stylesheet" type="text/css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Leo Club of Royal Achievers</title>
     <link rel="icon" href="images/lcra icon.png" type="image/x-icon">
@@ -11,31 +18,42 @@
   <body>
 
     <!-- ---- HEDDER NAVIGATION BAR ----  -->
-    <header id="main">
-      <nav>
-        <a href="#"><img class="logo" src="images/lcra logo.png" alt="LCRA"></a>
-        <span class="menu-space"></span>
-        <span class="menu-space"></span>
-        <span class="menu-space"></span>
-        <span class="menu-space"></span>
-        <span class="menu-space"></span>
-        <span class="menu-space"></span>
-        <ul class="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Projects.html">Projects</a></li>
-          <li><a href="Member.html">Members</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg fixed-top bg-color navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/lcra logo.png"></a>
+          <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="toggler-icon top-bar"></span>
+              <span class="toggler-icon middle-bar"></span>
+              <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Members</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </div>
       </nav>
-    </header>
     <!--///////////////////////////////////////////////////////////////////////////-->
     
 
 
     <!-- ---- MAIN CONTENT ---- -->
-    <section class="center">
-      <img class="main_img" src="images/lcra logo.png" height="100%">
+    <section class="center body-space">
+      <img class="main_img" src="images/lcra logo.png" height="75%">
       <p>
         <div class="leoClub LCOficialFont">LEO &nbspCLUB &nbspOF</div>
         <div class="royalAchievers RAOficialFont">ROYAL &nbspACHIEVERS</div>
@@ -43,7 +61,6 @@
       <br/>
       <p class="homeDescription">
         Achieve true excellence through team spirit and humanity to lend a hand to the deprived ones in times of need.
-        Achieve true excellence through team spirit and humanity to lend a hand to the deprived ones in times of
         need.Achieve true excellence through team spirit and humanity to lend a hand to the deprived ones in times of
         need.</p>
       <div>
@@ -54,7 +71,7 @@
         <button class="btn">Donate / Sponsor</button>
         </a>
       </div>
-      <img src="images/10.png" width="100%">
+      <img src="images/artwork.png" width="100%">
     </section>
     <!--///////////////////////////////////////////////////////////////////////////-->
 
@@ -571,8 +588,10 @@
       <P class="terrmsp">PrivacyPolicies.com © 2002 - 2022 All rights reserved</P>
     </footer>
     <!--///////////////////////////////////////////////////////////////////////////-->
-    <script src="lcra js.js"></script>
-  
+    
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
 </html>
