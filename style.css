@@ -92,7 +92,7 @@
         }
 
         .bg-color{
-            background-color: #000000d2;
+            background-color: #000000c5;
         }
 
         .navbar-dark a{
@@ -122,7 +122,7 @@
 
 /* ----BACKGROUND VIDEO---- */
         #background-video {
-            opacity: 0.2;
+            opacity: 0.5;
             width: 100vw;
             height: 100vh;
             object-fit: cover;
