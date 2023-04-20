@@ -1,5 +1,6 @@
  /*STYLES*/
  body{
+  width: 100%;
     margin:0px;
     padding:0px;
     font-family: 'Signika Negative', sans-serif;
@@ -13,49 +14,10 @@
   margin-top: 10%;
 }
 
-
-
-
-
-/* ---------------------------------------------------------------
----------------------------------------------------------------
----------------------------------------------------------------
----------------------------------------------------------------
----------------------------------------------------------------
----------------------------------------------------------------
---------------------------------------------------------------- */
-/* For extremely small screen devices (595px and below) */
-@media only screen and (max-width: 595px) {}
-
-/* Small screen devices (600px and above) */
-@media only screen and (min-width: 600px) {}
-
-/* Medium screen devices (768px and above) */
-@media only screen and (min-width: 768px) {}
-
-/* Big screen devices (889px and above) */
-@media only screen and (min-width: 889px) {}
-
-/* Extra big screen devices (1200px and above) */
-@media only screen and (min-width: 1200px) {}
-/* ---------------------------------------------------------------
----------------------------------------------------------------
----------------------------------------------------------------
-tutorial link : https://www.youtube.com/watch?v=P_vkS4UJNDk 
----------------------------------------------------------------
----------------------------------------------------------------
----------------------------------------------------------------
---------------------------------------------------------------- */
-
-
-
-
-
-
-
 p{
   font-size: 120%;
 }
+
 
 .center{
     text-align: center;
@@ -816,3 +778,36 @@ margin-top: 5px;
 .contact{
   margin-top:3%;
 }
+
+
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+      .royalAchievers{
+          padding-top: 2%;
+          font-size:600%;
+          line-height: 50%;
+          line-height: 1;
+      }
+  
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {}
+/* ---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+tutorial link : https://www.youtube.com/watch?v=P_vkS4UJNDk 
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+--------------------------------------------------------------- */
