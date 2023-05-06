@@ -88,6 +88,11 @@ p{
     box-shadow:5px 10px 30px rgba(24, 139, 120, 0);  
   }
 
+  /* .btn a{
+    color: rgb(255, 189, 47);
+    background-color: #0000004b;
+  } */
+
   .btn:hover{
       color: rgb(250, 176, 17);
       background-color: #080808;
@@ -450,7 +455,7 @@ p{
 /* ====== MY LEO PROTAL START ===== */
 .myleo-section{
   margin: 10%;
-  margin-bottom: 0%;
+  margin-bottom: 3%;
 }
 
 .column-left {
@@ -460,24 +465,24 @@ p{
   width: 40%;
   height: 600px;
 }
+
 .column-left img{
   width: 100%;
   height: auto;
 }
+
 .column-right {
-  background-color:#9b9b9b;
+  background: linear-gradient(to right, #1c1c1c, #051d39);
+  display: flex;
+  align-items: center;
   align-self: center;
+  text-align: center;
+  justify-content: center;
   border-radius: 20px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
-  text-align: center;
-  justify-content: center;
   width: 60%;
   height: 550px;
-}
-
-.column-right p{
-  padding-top: 200px;
 }
 
 .row:after {
@@ -489,40 +494,41 @@ p{
 .myleo-btn{
     width: 250px;
     height:100px;
+    text-decoration: none;
     font-size: 120%;
-    justify-content: center;
-    align-items: center;
     color:var(--main-font-color);
-    background-color: #1d335c;
     border-radius: 15px;
     border-color:  #1d335c00;
-    box-shadow:0px 0px 10px  #4775c9;  
+    box-shadow:0px 0px 10px  #1d3b72;  
   }
 
   .myleo-btn:hover{
-      background-color: #035699;
+      color: #0693ff;
       }
-
-    .myleo-btn:focus{
-      color: rgb(255, 189, 47);
-      background-color: #9c9c9c4b;
-      border-radius: 15px;
-      border-color:  #1d335c00;
-      box-shadow:0px 0px 10px  #4775c9;  
-    }
 /* ====== MY LEO PROTAL END ===== */
 
 
 
 /* EXCO POFILE CARD START*/
 .Exco-cards {
-  display: grid;
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  list-style-type:none;
+  list-style-type:none; */
 }
 
 .a-box {
-  display: inline-block;
+  
+  margin: 0 15px 30px;
+  overflow: hidden;
   width: 240px;
   text-align: center;
 }

@@ -31,7 +31,7 @@
                   <a class="nav-link" aria-current="page" href="index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                  <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
                   <ul class="dropdown-menu  bg-color" aria-labelledby="navbarScrollingDropdown">
                     <li><a class="dropdown-item" href="#upcoming-projects">Up Comming</a></li>
                     <li><a class="dropdown-item" href="#projects">Projects</a></li>
@@ -44,7 +44,7 @@
                     <li><a class="dropdown-item" href="html/members.html">Directors</a></li>
                     <li><a class="dropdown-item" href="html/members.html">Members</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="https://docs.google.com/forms/d/1_Z0t7dAXn53WqU0vtXT01h8np6cz6gJAlb6Kv6Pgoao">Request Membership</a></li>
+                    <li><a class="dropdown-item" href="https://docs.google.com/forms/d/1_Z0t7dAXn53WqU0vtXT01h8np6cz6gJAlb6Kv6Pgoao" target="_blank">Request Membership</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -79,12 +79,12 @@
         
         
         <div style="margin-top: 5%;">
-            <a href="https://docs.google.com/forms/d/1_Z0t7dAXn53WqU0vtXT01h8np6cz6gJAlb6Kv6Pgoao" target="_blank">
-            <button class="btn"><i class="fa-solid fa-address-card"></i> &nbsp Join With LCRA</button>
-            </a>
-            <a href="https://docs.google.com/forms/d/1cO2XevpmE3e2DHUeWZNp0JawmHXXKhEZrmw5shoeBcM" target="_blank">
-            <button class="btn"><i class="fa-solid fa-hand-holding-dollar"></i> &nbsp Donate / Sponsor</button>
-            </a>
+            <button onclick="window.open('https://docs.google.com/forms/d/1_Z0t7dAXn53WqU0vtXT01h8np6cz6gJAlb6Kv6Pgoao', '_blank')" class="btn">
+              <i class="fa-solid fa-address-card"></i> &nbsp Join With LCRA
+            </button>
+            <button onclick="window.open('https://docs.google.com/forms/d/1cO2XevpmE3e2DHUeWZNp0JawmHXXKhEZrmw5shoeBcM', '_blank')" class="btn">
+                <i class="fa-solid fa-hand-holding-dollar"></i>&nbsp Donate / Sponsor
+            </button>
         </div>
 
         <div class="arrow">
@@ -390,9 +390,11 @@
           <img src="images/myleo.png">
         </div>
         <div class="column-right">
-          <p>In this section you can access our international leo protal,<br>
-          You can find more about our club</p>
-          <button class="column-right myleo-btn">View Leo Club of<br>Royal Achievers</button>
+          <div align="center">
+            <p>In this section you can access our international leo protal,<br>
+              You can find more about our club<br><span>Note : Only LEOs can access this</span></p>
+            <a class="column-right myleo-btn" href="https://myleo.leomd306.org/viewClub/Id=1039?activeItem=1">View Leo Club of<br>Royal Achievers</a>
+          </div>
         </div>
       </div>
     </section>
@@ -401,6 +403,7 @@
     <section id="exco" class="projects-section2" align="center">
       <h1 class="projects-h1">LCRA &nbsp FAMILY</h1>
       <div CLASS="Exco-cards">
+        
         <div>
           <div class="a-box">
             <div class="img-container">
@@ -427,6 +430,7 @@
             </div>
           </div>
         </div>
+
         <div>
           <div class="a-box">
             <div class="img-container">
@@ -453,6 +457,8 @@
             </div>
           </div>
         </div>
+
+
         <div>
           <div class="a-box">
             <div class="img-container">
@@ -559,10 +565,10 @@
       </div>
       
       <section  style="margin: 2%;">
-        <a href="C:\A\New folder\lcra\Member.html">
+        <a href="html/members.html">
           <button class="btn">View Directors</button>
         </a>
-        <a href="C:\A\New folder\lcra\Member.html">
+        <a href="html/members.html">
           <button class="btn">View Members</button>
         </a> 
       </section>
